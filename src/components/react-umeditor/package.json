@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-umeditor@git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+        "scope": null,
+        "escapedName": "react-umeditor",
+        "name": "react-umeditor",
+        "rawSpec": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+        "spec": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+          "sshUrl": "git+ssh://git@github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+          "httpsUrl": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+          "gitUrl": "git://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+          "shortcut": "github:liuhong1happy/react-umeditor#v1.0.0-rc2",
+          "directUrl": "https://raw.githubusercontent.com/liuhong1happy/react-umeditor/v1.0.0-rc2/package.json"
+        }
+      },
+      "/Users/lzyfn/cr_projects/fuxiong_admin"
+    ]
+  ],
+  "_from": "git+https://github.com/liuhong1happy/react-umeditor.git#66f67f07fa3428758575d1db947dabc6df3d2178",
+  "_id": "react-umeditor@1.0.0-rc2",
+  "_inCache": true,
+  "_location": "/react-umeditor",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-umeditor@git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+    "scope": null,
+    "escapedName": "react-umeditor",
+    "name": "react-umeditor",
+    "rawSpec": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+    "spec": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+      "sshUrl": "git+ssh://git@github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+      "httpsUrl": "git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+      "gitUrl": "git://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+      "shortcut": "github:liuhong1happy/react-umeditor#v1.0.0-rc2",
+      "directUrl": "https://raw.githubusercontent.com/liuhong1happy/react-umeditor/v1.0.0-rc2/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/liuhong1happy/react-umeditor.git#66f67f07fa3428758575d1db947dabc6df3d2178",
+  "_shasum": "a90d52a0d9fe422c7fb667b25f2b9ab1bd208174",
+  "_shrinkwrap": null,
+  "_spec": "react-umeditor@git+https://github.com/liuhong1happy/react-umeditor.git#v1.0.0-rc2",
+  "_where": "/Users/lzyfn/cr_projects/fuxiong_admin",
+  "author": {
+    "name": "Holly Liu"
+  },
+  "bugs": {
+    "url": "https://github.com/liuhong1happy/react-umeditor/issues"
+  },
+  "dependencies": {
+    "hmacsha1": "^1.0.0"
+  },
+  "description": "React Editor like UMEditor",
+  "devDependencies": {
+    "babel": "^6.0.0",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "chai": "^3.5.0",
+    "console-polyfill": "^0.2.2",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.25.0",
+    "es5-shim": "^4.4.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "mocha": "^3.2.0",
+    "open-browser-webpack-plugin": "0.0.2",
+    "path": "^0.12.7",
+    "react": "^0.14.8",
+    "react-addons-test-utils": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-transform-catch-errors": "^1.0.2",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "gitHead": "66f67f07fa3428758575d1db947dabc6df3d2178",
+  "homepage": "https://github.com/liuhong1happy/react-umeditor#readme",
+  "keywords": [
+    "react",
+    "react-umeditor"
+  ],
+  "license": "MIT",
+  "main": "lib/editor.js",
+  "name": "react-umeditor",
+  "optionalDependencies": {},
+  "readme": "# react-umeditor\n\n[![Version](https://img.shields.io/npm/v/react-umeditor.svg)](https://www.npmjs.com/package/react-umeditor)\n[![Downloads](https://img.shields.io/npm/dt/react-umeditor.svg)](https://www.npmjs.com/package/react-umeditor)\n\nReact Editor like [Umeditor](https://github.com/fex-team/umeditor)\n\n## Install \n\n\tnpm install react-umeditor --save\n\n## Use\n\njavascript\n\n``` js\nvar React = require('react');\nvar Editor = require('react-umeditor');\n\nclass App extends React.Component {\n\tconstrunctor(props){\n\t\tsuper(props);\n\t\tthis.state = {\n\t\t\tcontent: \"\"\n\t\t}\n\t}\n\thandleChange(content){\n\t\tthis.setState({\n\t\t\tcontent: content\n\t\t})\n\t}\n\tgetIcons(){\n\t\tvar icons = [\n\t\t\t\"source | undo redo | bold italic underline strikethrough fontborder emphasis | \",\n\t\t\t\"paragraph fontfamily fontsize | superscript subscript | \",\n\t\t\t\"forecolor backcolor | removeformat | insertorderedlist insertunorderedlist | selectall | \",\n\t\t\t\"cleardoc  | indent outdent | justifyleft justifycenter justifyright | touppercase tolowercase | \",\n\t\t\t\"horizontal date time  | image emotion spechars | inserttable\"\n\t\t]\n\t\treturn icons;\n\t}\n\tgetPlugins(){\n\t\treturn {\n\t\t\t\"image\": { \n\t\t\t\t\"uploader\": { \n\t\t\t\t\t\"name\":\"file\", \n\t\t\t\t\t\"url\": \"/api/upload\" \n\t\t\t\t} \n\t\t\t} \n\t\t}\n\t}\n\trender(){\n\t    var icons = this.getIcons();\n\t\tvar plugins = this.getPlugins();\n\t\treturn (<Editor ref=\"editor\" \n\t\t\ticons={icons} \n\t\t\tvalue={this.state.content} defaultValue=\"<p>React Umeditor</p>\" \n\t\t\tonChange={this.handleChange.bind(this)} \n\t\t\tplugins={plugins} />)\n\t}\n}\n```\n\t\nhtml\n\n``` html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Editor Demo</title>\n\t\n\t<!-- mathquill & umeditor stylesheet & if you have the formula icon -->\n\t<link rel=\"stylesheet\" href=\"../../dist/third-part/mathquill/mathquill.css\"/>\n\t\n\t<link rel=\"stylesheet\" href=\"app.css\" type=\"text/css\" />\n</head>\n<body>\n\t<div id=\"react-container\"></div>\n\t\n\t<!-- jquery & mathquill javascript & if you have the formula icon -->\n\t<script src=\"../../dist/third-part/jquery.min.js\"></script>\n\t<script src=\"../../dist/third-part/mathquill/mathquill.js\"></script>\n\t\n\t<!-- your react script -->\n\t<script src=\"bundle.js\"></script>\n\t<script src=\"app.js\"></script>\n</body>\n</html>\n```\n\t\n## Ref Functions\n\nYou can `this.refs.editor.xxx()`! The `xxx` maybe is as follows:\n\n* findDOMNode: find  refs by ref name  `\"root\",\"editarea\",\"toolbar\",\"color\" `\n* setContent: set html of editor\n* getContent: get html of editor\n* focusEditor: focus the editor\n\n## Props\n\nYou can set the `props`!The `props` maybe is as follows:\n* onFocus: the focus event\n* onChange: the text change event `{ content: string }`\n* defaultValue: default value of editor\n* value: value of editor\n* icons: icons of toolbar\n* plugins: settings of plugins\n\t* image: settings of image dialog \n\t\t* uploader: settings of image uploader\n\t\t\t* name:  form name of xhr\n\t\t\t* url:  url of server\n            * type: qiniu or default\n            * qiniu: when type is qiniu\n                * upload_token: upload_token of qiniu\n                * app: app of qiniu\n                    * Bucket: Bucket of qiniu\n                    * AK: AccessKey of qiniu\n                    * SK: SecretKey of qiniu\n                * key: resource key of file\n                * genKey: when not key,gen resource key of file\n\n## Icons\n\nSupport icons, As fllow:\n\n\tsource undo redo bold italic underline strikethrough fontborder emphasis \n\tparagraph fontfamily fontsize superscript subscript \n\tforecolor backcolor removeformat insertorderedlist insertunorderedlist  selectall \n\tcleardoc  indent outdent justifyleft justifycenter justifyright  touppercase tolowercase \n\thorizontal date time  image emotion spechars inserttable formula\n\n## Snapshot\n\n![snapshot](editor.png)\n\n## Develop\n\n\t// clone code\n\tgit clone https://github.com/liuhong1happy/react-umeditor\n\tcd react-umeditor\n\t// install require\n\tnpm install\n    npm install envify browserify\n    npm install react browserify\n    npm install reactify browserify\n\t// build\n\tnpm run build\n\t// run example server\n\tnpm run example\n\t\n\n## Todo\n\n- [ ] table-edit [wskongdesheng](https://github.com/wskongdesheng)\n- [ ] insert time date video audio etc. [liuhong1happy](https://github.com/liuhong1happy)\n\n## Contribute\n\nChanges and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into master! If you can, please make sure the editor fully works before sending the PR, as that will help speed up the process.\n\nSee more [document](https://github.com/liuhong1happy/react-umeditor/blob/master/docs/contribute.md)\n\n## Concat\n\nEmail: [liuhong1.happy@163.com](mailto:liuhong1.happy@163.com)\n\nQQ Group: 247978846\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhong1happy/react-umeditor.git"
+  },
+  "scripts": {
+    "build": "npm run copy && NODE_ENV=production & babel ./src --out-dir ./lib ",
+    "build-win": " npm run copy-win &&  set NODE_ENV=production & babel src --out-dir lib",
+    "clean": "rm -rf ./lib",
+    "clean-win": "del lib /Q",
+    "copy": "cp -R images/. dist/images && cp -R less/. dist/less && cp -R third-part/. dist/third-part",
+    "copy-win": "xcopy less dist\\less\\ /s /y && xcopy images dist\\images\\ /s /y && xcopy  third-part dist\\third-part\\ /s /y",
+    "example": "webpack-dev-server --devtool eval --progress --hot --host 0.0.0.0 --config webpack.example.config.js",
+    "test": "mocha test/{,**/}{,**/}*.js  --compilers js:babel-register --com --require ./test/setup.js"
+  },
+  "version": "1.0.0-rc2"
+}

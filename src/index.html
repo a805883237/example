@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title>票友-媒体主后台</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="/static/third-part/mathquill/mathquill.css"/>
+  <link rel="stylesheet" href="/static/third-part/mathquill/react-umeditor.min.css"/>
+  <script type="text/javascript">
+    var $host="/"
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= $host+'faye/client.js';
+    head.appendChild(script);
+    var $client = new Faye.Client("/faye", {retry: 5, timeout: 120});
+  </script>
+</head>
+<body>
+<div id="app"></div>
+<script src="/static/third-part/jquery.min.js"></script>
+<script src="/static/third-part/mathquill/mathquill.js"></script>
+
+
+<script src="/bundle.js"></script>
+<!-- built files will be auto injected -->
+</body>
+</html>
