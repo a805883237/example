@@ -37,7 +37,6 @@ let MyForm = React.createClass({
   },
 
   componentDidMount() {
-    console.log(this.state,this.props ,'666666666');
     let itemId = this.props.modal.state.itemId;
     if (itemId) {
       this.props.getItemData(itemId);

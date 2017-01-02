@@ -61,10 +61,10 @@ let Search = React.createClass({
               <FormItem id="tag" label="标签分组" labelCol={{span: 6}} wrapperCol={{span: 14}}>
                 <Select multiple style={{width: '100%'}} {...getFieldProps('tags',)} placeholder="请选择"
                         defaultValue={['a10', 'c12']}>
-                  {/*{*/}
-                    {/*this.props.tagsData.map((item, index) => {*/}
-                      {/*return < Option key={item.id} value={item.name}>{item.name}</Option>*/}
-                  {/*})*/}
+                  {
+                    this.props.tagsData.map((item, index) => {
+                      return < Option key={item.id} value={item.name}>{item.name}</Option>
+                  })
                   }
                 </Select>
               </FormItem>

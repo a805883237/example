@@ -78,7 +78,7 @@ class Ant < Thor
     insert_into_file "../src/routes.js", "\n\r import  #{@opts[:module]+@resources_cap}Index from './views/#{@opts[:path]}/index';", :after => "// ruby自动生成"
     routeIndexView=%{\n\r <Route breadcrumbName="位置暂定" path="#{@opts[:namespace]}/#{@resources}"  components={#{@opts[:module]+@resources_cap}Index}/>}
     insert_into_file "../src/routes.js", routeIndexView, :after => "<IndexRoute component={HomePage}/>"
-    menuView=%{\n\r <Menu.Item key="#{@named_resources}" ><Link to="/manage/#{@opts[:namespace]}/#{@resources}"> #{@resources} 信息</Link></Menu.Item>}
+    menuView=%{\n\r <Menu.Item key="#{@named_resources}" ><Link to="/mind/#{@opts[:namespace]}/#{@resources}"> #{@resources} 信息</Link></Menu.Item>}
     insert_into_file "../src/views/layouts/App/App.js", menuView, :after => '<SubMenu key="automake" title={<span><Icon type="user"/>自动生成页面</span>}>'
   end
 
