@@ -81,6 +81,8 @@ class App extends Component {
               <Menu.Item key="3"><Link to={'/manage/notices'}>消息管理</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="automake" title={<span><Icon type="user"/>自动生成页面</span>}>
+ <Menu.Item key="shops" ><Link to="/manage//shops"> shops 信息</Link></Menu.Item>
+
 
               <Menu.Item key="test_users"><Link to="/manage/test/users"> users 信息</Link></Menu.Item>
 
@@ -102,7 +104,7 @@ class App extends Component {
             </div>
           </div>
           <div className="ant-layout-footer">
-            版权所有 © 2017 票友
+            版权所有 © 2017 富熊电商
           </div>
         </div>
       </div>

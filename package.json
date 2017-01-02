@@ -1,7 +1,7 @@
 {
-  "name": "piaoyou",
+  "name": "fuxiong_mind",
   "version": "1.0.0",
-  "description": "piaoyou",
+  "description": "fuxiong_mind",
   "main": "index.js",
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
