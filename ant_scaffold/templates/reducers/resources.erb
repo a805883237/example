@@ -1,0 +1,35 @@
+let initialState = {
+  data: {meta: {per_page: 10, total_count: 0, total_pages: 0}, <%=config[:resources]%>: []},
+  itemData: {}
+}
+export default function <%=config[:named_resources]%>(state = initialState, action) {
+  switch (action.type) {
+    case "get<%=config[:resources_cap]%>Success":
+      return Object.assign({}, state, {
+        isFetching: true,
+        data: action.data
+      });
+    case "get<%=config[:resource_cap]%>Success":
+      return Object.assign({}, state, {
+        isFetching: true,
+        itemData: action.data
+      });
+    case "save<%=config[:resource_cap]%>Success":
+      return Object.assign({}, state, {
+        itemData: action.data
+      });
+    case "delete<%=config[:resources_cap]%>Success":
+      return Object.assign({}, state,{}
+      );
+    case "update<%=config[:resources_cap]%>Success":
+      return Object.assign({}, state,{}
+    );
+    case "openEditForm":
+      return Object.assign({}, state, {
+        edit_form_visible: action.visible
+      });
+    default:
+      return state;
+  }
+}
+
