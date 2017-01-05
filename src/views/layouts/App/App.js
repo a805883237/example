@@ -35,33 +35,33 @@ class App extends Component {
     if (paths[0] === "product/new") {
       return (
         <span className="product_new">
-          <Link to="/manage/products">产品列表</Link>
+          <Link to="/products">产品列表</Link>
               /
-          <Link to="/manage/product/new">新建产品列表</Link>
+          <Link to="/product/new">新建产品列表</Link>
         </span>
       )
     } else if (paths[0] === "product/edit") {
       return (
         <span className="product_new">
-          <Link to="/manage/products">产品列表</Link>
+          <Link to="/products">产品列表</Link>
               /
-          <Link to="/manage/product/1/edit">修改产品列表</Link>
+          <Link to="/product/1/edit">修改产品列表</Link>
         </span>
       )
     } else if (/^.*children$/.test(paths[1])) {
       return (
         <span className="product_new">
-          <Link to="/manage/fx/users">全部分销商</Link>
+          <Link to="/fx/users">全部分销商</Link>
               /
-          <Link to="/manage/fx/users/:id/children">下级分销商</Link>
+          <Link to="/fx/users/:id/children">下级分销商</Link>
         </span>
       )
     } else if (/^.*detail*/.test(paths[1])) {
       return (
         <span className="product_new">
-          <Link to="/manage/trade">订单列表</Link>
+          <Link to="/trade">订单列表</Link>
               /
-          <Link to="/manage/trade/details/:id">订单详情</Link>
+          <Link to="/trade/details/:id">订单详情</Link>
         </span>
       )
     }
@@ -76,18 +76,16 @@ class App extends Component {
           <div className="ant-layout-logo"/>
           <Menu mode="inline" theme="dark" defaultSelectedKeys={['1']}>
             <SubMenu key="user" title={<span><Icon type="/user"/>用户管理</span>}>
-              <Menu.Item key="1"><Link to={'/manage/users'}>用户管理</Link></Menu.Item>
-              <Menu.Item key="2"><Link to={'/manage/userReview'}>用户审核</Link></Menu.Item>
-              <Menu.Item key="3"><Link to={'/manage/notices'}>消息管理</Link></Menu.Item>
+              <Menu.Item key="1"><Link to={'/users'}>用户管理</Link></Menu.Item>
+              <Menu.Item key="3"><Link to={'/notices'}>消息管理</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="automake" title={<span><Icon type="user"/>自动生成页面</span>}>
- <Menu.Item key="shops" ><Link to="/manage//shops"> shops 信息</Link></Menu.Item>
 
 
-              <Menu.Item key="test_users"><Link to="/manage/test/users"> users 信息</Link></Menu.Item>
 
-              <Menu.Item key="image"><Link to="/manage/image">图片管理</Link></Menu.Item>
-              <Menu.Item key="u_editor"><Link to="/manage/editor">UmEditor</Link></Menu.Item>
+
+              <Menu.Item key="image"><Link to="/image">图片管理</Link></Menu.Item>
+              <Menu.Item key="u_editor"><Link to="/editor">UmEditor</Link></Menu.Item>
             </SubMenu>
           </Menu>
         </aside>
